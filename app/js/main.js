@@ -3,7 +3,7 @@
 'use strict';
 
 
-  angular.module('SampleApp', ['ngRoute', 'ngAnimate'])
+  angular.module('EmpathyApp', ['ngRoute', 'ngAnimate'])
 
   .config([
     '$locationProvider',
@@ -23,7 +23,7 @@
   ]);
 
   //Load controller
-  angular.module('SampleApp')
+  angular.module('EmpathyApp')
 
   .controller('MainController', [
     '$scope',
